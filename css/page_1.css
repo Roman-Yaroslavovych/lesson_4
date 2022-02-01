@@ -1,0 +1,69 @@
+@import 'null.css';
+
+@font-face {
+  font-family: '1plus1_2020';
+  src: url('1plus1_2020-Medium.woff2') format('woff2'),
+      url('1plus1_2020-Medium.woff') format('woff');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: '1plus1_2020';
+  src: url('1plus1_2020-Bold.woff2') format('woff2'),
+      url('1plus1_2020-Bold.woff') format('woff');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: '1plus1_2020';
+  src: url('1plus1_2020-Regular.woff2') format('woff2'),
+      url('1plus1_2020-Regular.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+body {
+  font-family:'1plus1_2020', sans-serif;
+  font-style: 20px;
+}
+
+.title {
+  font-size: 22px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 30px;
+}
+
+.title, .title-h2 {
+  text-align: center;
+}
+
+.link{
+  color: red;
+}
+
+.item{
+  text-decoration: underline;
+}
+
+.italic-text{
+  font-size: 17px;
+  font-style: italic;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+ul > li ul > li {
+  color: green;
+}
+
+#footer{
+  font-style: 30px;
+  text-transform: uppercase;
+  color: purple;
+}
